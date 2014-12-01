@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7602EDB31A2C214200687F1A /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7602EDB21A2C214200687F1A /* test.jpg */; };
 		76C0DE591A2822E3001CBA6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0DE581A2822E3001CBA6B /* main.m */; };
 		76C0DE5C1A2822E3001CBA6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0DE5B1A2822E3001CBA6B /* AppDelegate.m */; };
 		76C0DE5F1A2822E3001CBA6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0DE5E1A2822E3001CBA6B /* ViewController.m */; };
@@ -14,6 +15,15 @@
 		76C0DE641A2822E3001CBA6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C0DE631A2822E3001CBA6B /* Images.xcassets */; };
 		76C0DE671A2822E3001CBA6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76C0DE651A2822E3001CBA6B /* LaunchScreen.xib */; };
 		76C0DE731A2822E4001CBA6B /* Demo_Login_1128Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0DE721A2822E4001CBA6B /* Demo_Login_1128Tests.m */; };
+		76C6E1D31A2C04D000D49FC2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6E1D21A2C04D000D49FC2 /* MessageUI.framework */; };
+		76C6E1D51A2C06F600D49FC2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6E1D41A2C06F600D49FC2 /* MobileCoreServices.framework */; };
+		76E0E5D11A2C13F100476645 /* LKActivity-Flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E0E5C91A2C13F100476645 /* LKActivity-Flat.png */; };
+		76E0E5D21A2C13F100476645 /* LKActivity-Flat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E0E5CA1A2C13F100476645 /* LKActivity-Flat@2x.png */; };
+		76E0E5D31A2C13F100476645 /* LKActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E0E5CB1A2C13F100476645 /* LKActivity.png */; };
+		76E0E5D41A2C13F100476645 /* LKActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E0E5CC1A2C13F100476645 /* LKActivity@2x.png */; };
+		76E0E5D51A2C13F100476645 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E0E5CE1A2C13F100476645 /* Line.m */; };
+		76E0E5D61A2C13F100476645 /* LKLineActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E0E5D01A2C13F100476645 /* LKLineActivity.m */; };
+		76E0E5D81A2C188100476645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E0E5D71A2C188100476645 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7602EDB21A2C214200687F1A /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		76C0DE531A2822E3001CBA6B /* Demo_Login_1128.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Login_1128.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C0DE571A2822E3001CBA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76C0DE581A2822E3001CBA6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,17 @@
 		76C0DE6C1A2822E3001CBA6B /* Demo_Login_1128Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_Login_1128Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C0DE711A2822E4001CBA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76C0DE721A2822E4001CBA6B /* Demo_Login_1128Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_Login_1128Tests.m; sourceTree = "<group>"; };
+		76C6E1D21A2C04D000D49FC2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		76C6E1D41A2C06F600D49FC2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		76E0E5C91A2C13F100476645 /* LKActivity-Flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity-Flat.png"; sourceTree = "<group>"; };
+		76E0E5CA1A2C13F100476645 /* LKActivity-Flat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity-Flat@2x.png"; sourceTree = "<group>"; };
+		76E0E5CB1A2C13F100476645 /* LKActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LKActivity.png; sourceTree = "<group>"; };
+		76E0E5CC1A2C13F100476645 /* LKActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity@2x.png"; sourceTree = "<group>"; };
+		76E0E5CD1A2C13F100476645 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		76E0E5CE1A2C13F100476645 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		76E0E5CF1A2C13F100476645 /* LKLineActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLineActivity.h; sourceTree = "<group>"; };
+		76E0E5D01A2C13F100476645 /* LKLineActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLineActivity.m; sourceTree = "<group>"; };
+		76E0E5D71A2C188100476645 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E0E5D81A2C188100476645 /* Foundation.framework in Frameworks */,
+				76C6E1D51A2C06F600D49FC2 /* MobileCoreServices.framework in Frameworks */,
+				76C6E1D31A2C04D000D49FC2 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7602EDB11A2C213300687F1A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7602EDB21A2C214200687F1A /* test.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		76C0DE4A1A2822E3001CBA6B = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +129,13 @@
 		76C0DE561A2822E3001CBA6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				76C0DE571A2822E3001CBA6B /* Info.plist */,
+				7602EDB11A2C213300687F1A /* Images */,
+				76E0E5C71A2C13F100476645 /* LineKit */,
+				76C6E1D41A2C06F600D49FC2 /* MobileCoreServices.framework */,
+				76C6E1D21A2C04D000D49FC2 /* MessageUI.framework */,
+				76E0E5D71A2C188100476645 /* Foundation.framework */,
 				76C0DE581A2822E3001CBA6B /* main.m */,
+				76C0DE571A2822E3001CBA6B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +155,30 @@
 				76C0DE711A2822E4001CBA6B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76E0E5C71A2C13F100476645 /* LineKit */ = {
+			isa = PBXGroup;
+			children = (
+				76E0E5C81A2C13F100476645 /* images */,
+				76E0E5CD1A2C13F100476645 /* Line.h */,
+				76E0E5CE1A2C13F100476645 /* Line.m */,
+				76E0E5CF1A2C13F100476645 /* LKLineActivity.h */,
+				76E0E5D01A2C13F100476645 /* LKLineActivity.m */,
+			);
+			name = LineKit;
+			path = Library/LineKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		76E0E5C81A2C13F100476645 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				76E0E5C91A2C13F100476645 /* LKActivity-Flat.png */,
+				76E0E5CA1A2C13F100476645 /* LKActivity-Flat@2x.png */,
+				76E0E5CB1A2C13F100476645 /* LKActivity.png */,
+				76E0E5CC1A2C13F100476645 /* LKActivity@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +230,7 @@
 				TargetAttributes = {
 					76C0DE521A2822E3001CBA6B = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 8DCXL25R37;
 					};
 					76C0DE6B1A2822E3001CBA6B = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,9 +262,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E0E5D21A2C13F100476645 /* LKActivity-Flat@2x.png in Resources */,
 				76C0DE621A2822E3001CBA6B /* Main.storyboard in Resources */,
 				76C0DE671A2822E3001CBA6B /* LaunchScreen.xib in Resources */,
+				76E0E5D11A2C13F100476645 /* LKActivity-Flat.png in Resources */,
 				76C0DE641A2822E3001CBA6B /* Images.xcassets in Resources */,
+				76E0E5D41A2C13F100476645 /* LKActivity@2x.png in Resources */,
+				76E0E5D31A2C13F100476645 /* LKActivity.png in Resources */,
+				7602EDB31A2C214200687F1A /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C0DE5F1A2822E3001CBA6B /* ViewController.m in Sources */,
+				76E0E5D51A2C13F100476645 /* Line.m in Sources */,
 				76C0DE5C1A2822E3001CBA6B /* AppDelegate.m in Sources */,
 				76C0DE591A2822E3001CBA6B /* main.m in Sources */,
+				76E0E5D61A2C13F100476645 /* LKLineActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +413,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Demo_Login_1128/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +426,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Demo_Login_1128/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +488,7 @@
 				76C0DE781A2822E4001CBA6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76C0DE791A2822E4001CBA6B /* Build configuration list for PBXNativeTarget "Demo_Login_1128Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +497,7 @@
 				76C0DE7B1A2822E4001CBA6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
